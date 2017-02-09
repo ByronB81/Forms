@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.1.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>A letter to a friend!</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Fill in the blanks to write your story!</h1>
+      <div id="blanks">
+        <form>
+          <div class="form-group">
+            <label for="person1">your name</label>
+            <input id="person1" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="person2">senders name</label>
+            <input id="person2" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="date">date sent</label>
+            <input id="date" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="location">your location</label>
+            <input id="location" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="time">the time</label>
+            <input id="time" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="weather">the weather</label>
+            <input id="weather" class="form-control" type="text">
+          </div>
+
+          <button type="submit" class="btn">Show me my mail!</button>
+        </form>
+      </div>
+
+      <div id="story">
+        <h1>a letter to a friend!</h1>
+        <p>Hello <span class="person1"></span> this is from <span class="person2"></span> and this is being sent on <span class="date"></span> from "<span class="location"></span>",  at <span class="time"></span> and it is <span class="weather"></span>.</p>
+      </div>
+    </div>
+  </body>
+</html>
